@@ -35,7 +35,7 @@ nav {
 }
 
 body {
-    background-image: url('/static/img/bg.png');
+    background-image: url('static/img/bg.png');
 }
 
 .boxCardapio {
