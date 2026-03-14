@@ -1,0 +1,134 @@
+header {
+    background-color: #1E1F22;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: #FFAE00;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+}
+
+nav {
+    padding: 20px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+
+body {
+    background-image: url('/static/img/bg.png');
+}
+
+.boxCardapio {
+    display: block;
+    margin: 20px auto;
+}
+
+.boxProduto {
+    background-color: RGBA(37, 37, 37, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    height: auto;
+    margin: 40px auto;
+    position: relative;
+}
+
+.boxImg {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.boxImg img {
+    width: 400px;
+    height: auto;
+}
+
+.boxTexto {
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    font-family: "Arial, Verdana, Geneva, Tahoma, sans-serif";
+    position: absolute;
+}
+
+.btnPedir {
+    background-color: #FFAE00;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.btnWhatsapp{
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.btnWhatsapp img{
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #1E1F22;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+
+    hearder {
+        width: 100%;
+    }
+
+    .boxCardapio {
+        width: 100%;
+    }
+
+    .boxProduto {
+        width: 90%;
+    }
+
+    .boxImg {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .boxTexto {
+        position: static;
+        width: 90%;
+
+    }
+
+    .btnPedir {
+        width: 100%;
+    }
+}
+
